@@ -1,0 +1,43 @@
+.map_char {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* border: 1px solid grey; */
+    /* box-shadow: 1px 1px 5px grey; */
+    margin: 2%;
+}
+
+.map_char h1 {
+    position: absolute;
+    z-index: 1;
+}
+
+.map_char img {
+    height: 95%;
+    width: 95%;
+    opacity: .8;
+    padding: 1%;
+}
+
+.smash {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.smash_main {
+    height: 100vh;
+}
+
+.chatbox {
+    position: fixed;
+    right: 2%;
+    top: 0;
+}
+
+@media (max-width: 800px) {
+    .map_char {
+        margin: 10%;
+    }
+}
